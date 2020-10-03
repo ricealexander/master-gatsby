@@ -52,6 +52,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     import: 'off',
     'func-names': 'off',
+    semi: ['error', 'never'],
     'space-before-function-paren': 'off',
     'comma-dangle': 'off',
     'max-len': 'off',
@@ -86,4 +87,4 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
   }
-};
+}
