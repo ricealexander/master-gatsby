@@ -1,8 +1,12 @@
 import React from 'react'
+import Navigation from '../components/Navigation'
 
 function OrderPage () {
   return (
-    <p>Hey, I'm the Order page.</p>
+    <div>
+      <Navigation />
+      <p>Hey, I'm the Order page.</p>
+    </div>
   )
 }
 
