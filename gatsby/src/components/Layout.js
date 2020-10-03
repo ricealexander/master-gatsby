@@ -1,18 +1,22 @@
 import React from 'react'
 import Footer from './Footer'
 import Navigation from './Navigation'
+
 import GlobalStyles from '../styles/GlobalStyles'
+import Typography from '../styles/Typography'
 
 import 'normalize.css'
 
 function Layout ({ children }) {
   return (
-    <div>
+    <>
       <GlobalStyles />
+      <Typography />
+
       <Navigation />
       {children}
       <Footer />
-    </div>
+    </>
   )
 }
 
