@@ -3,7 +3,7 @@ import React from 'react'
 function HomePage() {
   return (
     <>
-      <p>Hey, I'm the Homepage.</p>
+      <p>Hey, I’m the Homepage.</p>
     </>
   )
 }
