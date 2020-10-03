@@ -4,7 +4,7 @@ module.exports = {
     options: {
       fonts: [{
         family: 'Amaranth',
-        variants: ['400', '700']
+        variants: ['700']
       }]
     }
   }]
