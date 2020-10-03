@@ -1,12 +1,11 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
+import Layout from '../components/Layout'
 
 function OrderPage () {
   return (
-    <div>
-      <Navigation />
+    <Layout>
       <p>Hey, I'm the Order page.</p>
-    </div>
+    </Layout>
   )
 }
 

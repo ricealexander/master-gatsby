@@ -1,12 +1,11 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
+import Layout from '../components/Layout'
 
 function PizzasPage () {
   return (
-    <div>
-      <Navigation />
+    <Layout>
       <p>Hey, I'm the Pizzas page.</p>
-    </div>
+    </Layout>
   )
 }
 
