@@ -15,11 +15,10 @@ const GlobalStyles = createGlobalStyle`
     background-image: url(${bg});
     background-attachment: fixed;
     background-size: 450px;
-    font-size: 10px;
   }
 
   body {
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 
   fieldset {
@@ -34,7 +33,7 @@ const GlobalStyles = createGlobalStyle`
     box-shadow: var(--cast) var(--cast) 0 var(--grey);
     color: white;
     cursor: pointer;
-    padding: 0.6rem 1rem;
+    padding: 0.5rem 0.75rem;
     text-shadow: 0.5px 0.5px 0 rgba(0,0,0,0.2);
     transition: all 0.2s;
     --cast: 2px;
