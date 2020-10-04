@@ -8,7 +8,7 @@ const NavStyles = styled.nav`
   margin-bottom: 2rem;
 
   .logo {
-    transform: translateY(-25%);
+    transform: translateY(-50%);
   }
 
   ul {
@@ -18,6 +18,7 @@ const NavStyles = styled.nav`
     grid-template-columns: 1fr 1fr auto 1fr 1fr;
     list-style: none;
     margin: 0;
+    margin-top: 1rem;
     padding: 0;
     text-align: center;
   }
@@ -30,19 +31,16 @@ const NavStyles = styled.nav`
 
   li:nth-child(1) { --rotate:  1.2deg; }
   li:nth-child(2) { --rotate: -2.5deg; }
-  li:nth-child(3) { --rotate: -1.2deg; }
+  li:nth-child(3) { --rotate: -2.0deg; }
   li:nth-child(4) { --rotate:  2.5deg; }
   li:nth-child(5) { --rotate: -2.0deg; }
   li:hover { --rotate: 3deg; }
 
   a {
-    font-size: 2rem;
+    font-size: 1.75rem;
     text-decoration: none;
-
-    &:hover {
-      color: var(--red);
-    }
   }
+  a:hover { color: var(--red); }
 `
 
 function Navigation () {
